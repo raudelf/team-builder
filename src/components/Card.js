@@ -6,6 +6,7 @@ const Cards = (props) => {
         {props.member.map(m => (
             <div className='cardInfo' key={m.number}>
             <h2>{m.member}</h2>
+            <p>{m.role}</p>
             <p>{m.email}</p>
             </div>
         ))}
